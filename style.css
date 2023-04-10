@@ -52,6 +52,7 @@ body {
     margin-left: 3%;
     font-size: 1.5rem;
     font-weight: bold;
+    visibility: hidden;
 }
 
 
@@ -63,4 +64,5 @@ body {
 .active>h2 {
     transition: 3s;
     color: white;
+    visibility: visible;
 }
