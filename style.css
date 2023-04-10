@@ -1,0 +1,66 @@
+body {
+    margin: 0;
+    padding: 0;
+}
+
+
+.container {
+    width: 100vw;
+    height: 100vh;
+    display: flex;
+    flex-wrap: wrap;
+    justify-content: center;
+    align-items: center;
+    gap: 30px;
+}
+
+.card {
+    width: 120px;
+    height: 70%;
+    background-repeat: no-repeat;
+    background-size: cover;
+    border-radius: 50px;
+    text-align: center;
+    display: flex;
+    justify-content: start;
+    align-items: end;
+    color: transparent;
+    transition: 2s;
+}
+
+.card:first-child {
+    background-image: url('./img/explore.avif');
+}
+
+.card:nth-child(2) {
+    background-image: url('./img/wild.avif');
+}
+
+.card:nth-child(3) {
+    background-image: url('./img/beach.avif');
+}
+
+.card:nth-child(4) {
+    background-image: url('./img/cyti.avif');
+}
+
+.card:nth-child(5) {
+    background-image: url('./img/mountain.avif');
+}
+
+.card>h2 {
+    margin-left: 3%;
+    font-size: 1.5rem;
+    font-weight: bold;
+}
+
+
+.active {
+    transition: 2s;
+    width: 710px;
+}
+
+.active>h2 {
+    transition: 3s;
+    color: white;
+}
